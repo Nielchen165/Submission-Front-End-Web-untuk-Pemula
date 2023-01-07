@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #642100;
+}
+
+input,
+button {
+  font-size: 16px;
+}
+
+.upper {
+  background-color: #A73900;
+  overflow: auto;
+  top: 0;
+}
+
+.logo {
+  width: 100px;
+  float: left;
+  margin: 17px;
+}
+
+main {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.input_section {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border: 4px solid #7c3614;
+  border-radius: 10px;
+}
+
+.input_section > h2 {
+  text-align: center;
+  color: wheat;
+}
+
+.input_section > form > .input {
+  margin: 8px 0;
+}
+
+.input_section > form > button {
+  background-color: #A73900;
+  color: wheat;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.input_section > form > button:hover {
+  background-color: rgb(201, 80, 0);
+  color: rgb(61, 1, 1);
+}
+
+.input_section > form > button > span {
+  font-weight: bold;
+}
+
+.input_section > form > .input > input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.input_section > form > .input > label {
+  color: wheat;
+  font-weight: bold;
+}
+
+.input_section > form > .input_inline {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+  color: wheat;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.book_shelf {
+  margin: 16px 0 0 0;
+  border: 4px solid #7c3614;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.book_shelf > h2 {
+  color: wheat;
+}
+
+.book_shelf > .book_list {
+  padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+  padding: 8px 16px 16px 16px;
+  border: 1px solid #7c3614;
+  background-color: #923304;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.book_shelf > .book_list > .book_item:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid wheat;
+  background-color: #7c3614;
+}
+
+.book_shelf > .book_list > .book_item > h3,
+p {
+  margin: 8px 0;
+  color: wheat;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+  border: 0;
+  padding: 5px;
+  margin: 0 10px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book_shelf > .book_list > .book_item > .action > .clear-button {
+  background-color: rgb(255, 152, 35);
+  color: rgb(119, 0, 0);
+  font-weight: bold;
+  border: 2px solid rgb(119, 0, 0);
+}
+
+.book_shelf > .book_list > .book_item > .action > .clear-button:hover {
+  background-color: rgb(196, 105, 2);
+  color: rgb(61, 1, 1);
+  border: 2px solid rgb(61, 1, 1);
+}
+
+.book_shelf > .book_list > .book_item > .action > .done-button {
+  background-color: rgb(119, 0, 0);
+  color: rgb(255, 152, 35);
+  font-weight: bold;
+  border: 2px solid rgb(255, 152, 35);
+}
+
+.book_shelf > .book_list > .book_item > .action > .done-button:hover {
+  background-color: rgb(61, 1, 1);
+  color: rgb(255, 194, 166);
+  border: 2px solid rgb(255, 194, 166);
+}
+
+/* Footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #A73900;
+  color: wheat;
+}
+
+footer > p {
+  margin: 5px 0;
+}
